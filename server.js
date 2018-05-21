@@ -23,4 +23,6 @@ app.get('/bad', (req, res)=>{
     });
 });
 
-app.listen(3080);
+app.listen(3080, () => {
+    console.log('Server is up on port 3080');
+});
